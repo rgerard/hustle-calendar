@@ -4,10 +4,6 @@
  */
 
 var express = require('express')
-    , host = process.env['DOTCLOUD_DB_MONGODB_HOST'] || 'localhost'
-    , port = process.env['DOTCLOUD_DB_MONGODB_PORT'] ||  27017
-    , port = parseInt(port)
-    , dburl = process.env['DOTCLOUD_DB_MONGODB_URL'] || "mongodb://" + host + ":" + port + "/hustle"
     , http = require('http')
     , path = require('path');
 
