@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "start" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+      "express": "3.0.2",
+      "ejs": "*",
+      "mongodb" : "*"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
